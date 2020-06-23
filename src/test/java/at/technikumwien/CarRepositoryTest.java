@@ -20,9 +20,9 @@ public class CarRepositoryTest {
 		
 	@Test
 	public void testFindAll() {
-		var persons = carRepository.findAll();
+		var cars = carRepository.findAll();
 		
-		assertEquals(2, persons.size());
+		assertEquals(2, cars.size());
 	}
 	
 
